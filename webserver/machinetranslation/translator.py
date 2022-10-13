@@ -43,3 +43,8 @@ def fr_to_en(fr_text):
     en_translation = en_translation[0]
     en_translation = en_translation["translation"]
     return en_translation
+    
+if __name__ == "__main__":
+    print ("Executed when invoked directly")
+else:
+    print ("Executed when imported")

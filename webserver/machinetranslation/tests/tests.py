@@ -18,4 +18,3 @@ class TestFrToEn(unittest.TestCase):
     def test(self): 
         self.assertEqual(fr_to_en("Bonjour"), "Hello") # test when 2 is given as input the output is 4.
 unittest.main()
-
